@@ -19,8 +19,8 @@ public abstract class AggregateRoot {
     private int version = -1;
     private final List<BaseAbstractEvent> changes = new ArrayList<>();
 
-    public int getID() {
-        return this.version;
+    public String getID() {
+        return this.id;
     }
 
     public int getVersion() {
