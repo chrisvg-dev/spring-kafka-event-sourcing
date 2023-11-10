@@ -1,0 +1,6 @@
+com/banking/account/cmd/api/command/CloseAccountCommand.class
+com/banking/account/cmd/api/command/DepositFundsCommand.class
+com/banking/account/cmd/api/command/WithDrawFundsCommand.class
+com/banking/account/cmd/infrastructure/AccountCommandDispatcher.class
+com/banking/account/cmd/CommandApplication.class
+com/banking/account/cmd/api/command/OpenAccountCommand.class

@@ -1,0 +1,6 @@
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.cmd/src/main/java/com/banking/account/cmd/api/command/WithDrawFundsCommand.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.cmd/src/main/java/com/banking/account/cmd/api/command/CloseAccountCommand.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.cmd/src/main/java/com/banking/account/cmd/api/command/DepositFundsCommand.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.cmd/src/main/java/com/banking/account/cmd/api/command/OpenAccountCommand.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.cmd/src/main/java/com/banking/account/cmd/infrastructure/AccountCommandDispatcher.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.cmd/src/main/java/com/banking/account/cmd/CommandApplication.java
