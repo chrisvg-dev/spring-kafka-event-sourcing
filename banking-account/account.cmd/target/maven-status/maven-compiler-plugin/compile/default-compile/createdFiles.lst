@@ -1,10 +1,13 @@
-com/banking/account/cmd/infrastructure/AccountEventSourcingHandler.class
 com/banking/account/cmd/api/command/CloseAccountCommand.class
-com/banking/account/cmd/domain/AccountAggregate.class
 com/banking/account/cmd/domain/EventStoreRepository.class
+com/banking/account/cmd/infrastructure/AccountEventProducer.class
 com/banking/account/cmd/infrastructure/AccountEventStore.class
 com/banking/account/cmd/api/command/DepositFundsCommand.class
 com/banking/account/cmd/api/command/WithDrawFundsCommand.class
 com/banking/account/cmd/infrastructure/AccountCommandDispatcher.class
 com/banking/account/cmd/CommandApplication.class
 com/banking/account/cmd/api/command/OpenAccountCommand.class
+com/banking/account/cmd/api/command/AccountCommandHandler.class
+com/banking/account/cmd/infrastructure/AccountEventSourcingHandler.class
+com/banking/account/cmd/domain/AccountAggregate.class
+com/banking/account/cmd/api/command/CommandHandler.class

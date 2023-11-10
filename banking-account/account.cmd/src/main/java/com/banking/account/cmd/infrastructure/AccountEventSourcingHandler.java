@@ -5,10 +5,12 @@ import com.banking.cqrs.core.domain.AggregateRoot;
 import com.banking.cqrs.core.handler.EventSourcingHandler;
 import com.banking.cqrs.core.infrastructure.EventStore;
 import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.Comparator;
 
 @AllArgsConstructor
+@Service
 public class AccountEventSourcingHandler implements EventSourcingHandler<AccountAggregate> {
     private final EventStore eventStore;
 
