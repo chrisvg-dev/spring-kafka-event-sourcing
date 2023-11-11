@@ -9,6 +9,7 @@ import lombok.experimental.SuperBuilder;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
@@ -17,6 +18,6 @@ import java.time.LocalDate;
 public class AccountOpenedEvent extends BaseAbstractEvent {
     private String accountHolder;
     private AccountType accountType;
-    private LocalDate createdAt;
+    private LocalDateTime createdAt;
     private BigDecimal openingBalance;
 }

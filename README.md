@@ -24,3 +24,9 @@ Zookeper es el administrador de servicios de Kafka, Kafka es el middleware
 
 # Mediator Patter
 Es un patron de diseno de tipo comportamiento, promueve un acoplamiento de objetos y simplifica la comunicacion entre los objetos
+
+# DDD Domain Driven Design
+Paradigma para modelar el software para que coincida con el dominio del negocio. Los problemas a atender son llamados DOMAINS.
+
+## Bounded context
+SOn los problemas asignados a un contexto con sus alcances y limitaciones. Estos son los que se agrupann en un solo microservice.
