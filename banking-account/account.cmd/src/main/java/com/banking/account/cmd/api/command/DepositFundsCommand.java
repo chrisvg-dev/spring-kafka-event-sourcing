@@ -1,11 +1,9 @@
 package com.banking.account.cmd.api.command;
 
-import com.banking.cqrs.core.commands.BaseAbstractCommand;
+import com.banking.cqrs.core.commands.BaseCommand;
 import lombok.Data;
 
-import java.math.BigDecimal;
-
 @Data
-public class DepositFundsCommand extends BaseAbstractCommand {
-    private BigDecimal amount;
+public class DepositFundsCommand extends BaseCommand {
+    private double amount;
 }

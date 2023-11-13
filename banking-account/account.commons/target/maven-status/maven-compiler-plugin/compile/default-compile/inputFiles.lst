@@ -1,5 +1,0 @@
-/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.commons/src/main/java/com/banking/account/commons/events/AccountClosedEvent.java
-/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.commons/src/main/java/com/banking/account/commons/events/AccountOpenedEvent.java
-/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.commons/src/main/java/com/banking/account/commons/events/FundsDepositedEvent.java
-/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.commons/src/main/java/com/banking/account/commons/events/FundsWithdrawEvent.java
-/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.commons/src/main/java/com/banking/account/commons/dto/AccountType.java

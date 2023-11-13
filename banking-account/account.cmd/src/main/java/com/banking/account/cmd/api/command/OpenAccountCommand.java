@@ -1,16 +1,12 @@
 package com.banking.account.cmd.api.command;
 
-import com.banking.account.commons.dto.AccountType;
-import com.banking.cqrs.core.commands.BaseAbstractCommand;
-import lombok.AllArgsConstructor;
+import com.banking.account.common.dto.AccountType;
+import com.banking.cqrs.core.commands.BaseCommand;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-
-import java.math.BigDecimal;
 
 @Data
-public class OpenAccountCommand extends BaseAbstractCommand {
+public class OpenAccountCommand extends BaseCommand {
     private String accountHolder;
     private AccountType accountType;
-    private BigDecimal openingBalance;
+    private double openingBalance;
 }

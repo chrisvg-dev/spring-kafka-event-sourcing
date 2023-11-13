@@ -1,7 +1,7 @@
 package com.banking.account.query.domain;
 
-import com.banking.account.commons.dto.AccountType;
-import com.banking.cqrs.core.domain.BaseAbstractEntity;
+import com.banking.account.common.dto.AccountType;
+import com.banking.cqrs.core.domain.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,19 +9,18 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import java.util.Date;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
 @Entity
-public class BankAccount extends BaseAbstractEntity {
+public class BankAccount extends BaseEntity {
     @Id
     private String id;
     private String accountHolder;
-    private LocalDateTime createdAt;
+    private Date creationDate;
     private AccountType accountType;
-    private BigDecimal balance;
+    private double balance;
 }

@@ -10,18 +10,26 @@ import javax.annotation.PostConstruct;
 
 @SpringBootApplication
 public class CommandApplication {
-	@Autowired CommandDispatcher commandDispatcher;
-	@Autowired CommandHandler commandHandler;
+
+	@Autowired
+	private CommandDispatcher commandDispatcher;
+
+	@Autowired
+	private CommandHandler commandHandler;
+
 	public static void main(String[] args) {
+
 		SpringApplication.run(CommandApplication.class, args);
 	}
 
 	@PostConstruct
-	public void registerCommandHandlers() {
+	public void registerHandlers(){
 		commandDispatcher.registerHandler(OpenAccountCommand.class, commandHandler::handle);
 		commandDispatcher.registerHandler(DepositFundsCommand.class, commandHandler::handle);
-		commandDispatcher.registerHandler(WithDrawFundsCommand.class, commandHandler::handle);
+		commandDispatcher.registerHandler(WithdrawFundsCommand.class, commandHandler::handle);
 		commandDispatcher.registerHandler(CloseAccountCommand.class, commandHandler::handle);
 	}
+
+
 
 }
