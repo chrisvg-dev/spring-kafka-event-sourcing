@@ -5,18 +5,18 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.time.LocalDateTime;
+import java.util.Date;
 
 @Data
 @Builder
-@Document(collation = "eventStore") // This annotation is used to indicate that the class is a domain object that we want to persist to the database.
+@Document(collection = "eventStore")
 public class EventModel {
     @Id
     private String id;
-    private LocalDateTime timeStamp;
+    private Date timeStamp;
     private String aggregateIdentifier;
     private String aggregateType;
     private int version;
     private String eventType;
-    private BaseAbstractEvent eventData;
+    private BaseEvent eventData;
 }

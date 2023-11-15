@@ -1,0 +1,17 @@
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/infrastructure/AccountQueryDispatcher.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/infrastructure/consumers/AccountEventConsumer.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/QueryApplication.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/infrastructure/handlers/AccountEventHandler.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/api/queries/FindAllAccountsQuery.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/infrastructure/consumers/EventConsumer.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/api/dto/EqualityType.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/api/queries/FindAccountByHolderQuery.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/api/queries/FindAccountWithBalanceQuery.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/api/dto/AccountLookupResponse.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/api/queries/FindAccountByIdQuery.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/infrastructure/handlers/EventHandler.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/api/queries/AccountQueryHandler.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/domain/AccountRepository.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/api/queries/QueryHandler.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/api/controllers/AccountLookupController.java
+/home/cvillegas/Desktop/workspace/java-microservices-event-sourcing/banking-account/account.query/src/main/java/com/banking/account/query/domain/BankAccount.java

@@ -25,3 +25,8 @@ spring:
           json:
             trusted:
               packages: '*'
+logging:
+  #level:
+    #org:
+      #apache:
+        #kafka: DEBUG
